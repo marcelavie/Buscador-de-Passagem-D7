@@ -1,0 +1,111 @@
+main{
+    background-image: url(https://dals0gb6i1pll.cloudfront.net/img/banner-mobile-buser.e1bda3c.png);
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 89%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.topo{
+    width: 280px;
+}
+*{
+    font-family: 'roboto',sans-serif;
+}
+.navbar{
+    padding: 0.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar img {
+    width: 120px;
+}
+
+.btn{
+ 
+    color: #f15076;
+    background-color: white;
+    font-weight: 900;
+}
+h1{
+    color: white;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    font-weight: 551;
+}
+.subtext{
+    color: white;
+    font-size: 15px;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    /*margin-left: 2%;*/
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 50%;
+    padding: 1rem;
+    
+}
+
+.destino{
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    border-color: #b0b2b2;
+    background-color: white;
+}
+.data{
+    /*width: 100%;
+    height: 10%;
+    border-radius: 10px; 
+    border-color: #b0b2b2;
+    background-color: white;*/
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    border-color: #d3d5d5;
+    background-color: white;
+}
+
+.search{
+    background-color: hsl(333deg 89% 50%);
+    color: white;
+    border: none;
+    width: 100%;
+    height: 10%;
+    border-radius: 5px;
+    
+    
+}
+nav{
+   
+    color: gray;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+   
+
+ 
+}
+
+ul {
+    display: flex;
+    font-size: 13px;
+    justify-content: space-around;
+    text-align: center;
+    gap: 8px;
+    padding: 10px;
+
+}
