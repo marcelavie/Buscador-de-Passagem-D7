@@ -50,12 +50,15 @@
             <option value="salvador">Salvador</option>
           </select>
                   
-      
           <label for="ida">Data de ida</label>
-          <input class="data" type="date" id="ida" name="ida">
+          <div class="input">
+          <input placeholder="Ida" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="ida" name="ida">
+          </div>
 
           <label for="volta">Data de volta</label>
-          <input class="data" type="date" id="ida" name="volta">
+          <div class="input"> 
+          <input placeholder="Volta" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"id="ida" name="volta">
+          </div>
 
           <button class="search">Buscar</button>
         
