@@ -1,94 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Buser</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link
-    rel="stylesheet"
-    href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-    crossorigin="anonymous"
-  />
-</head>
-<body>
-    <div class="navbar">
-     <img class="logo" src="./img/logobuser.png" alt="">
-      <a class="btn">Entrar</a>
-    </div>
 
-    <main>
-      <div class="topo">
-      <h1>VIAGENS DE ÔNIBUS 
-     MAIS BARATAS QUE A 
-      PASSAGEM DA
-      RODOVIÁRIA 
-      <i class="fa-solid fa-beer-mug-empty"></i>
-    </h1>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buser</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="application">
+  <header>
+    <div class="navbar">
+    <img class="logo" src="./img/logobuser.png" alt="">
+    <a class="btn">Entrar</a>
+  </div>
+</header>
+  <main>
+    <div class="topo">
+      <h1>VIAGENS DE ÔNIBUS
+        MAIS BARATAS QUE A
+        PASSAGEM DA
+        RODOVIÁRIA
+      </h1>
       <p class="subtext">Sem taxas, com segurança e preço justo</p>
     </div>
-    
+
     <div class="box">
       <label for="origem">Saindo de</label>
 
-          <select class="destino">
-            <option value="sanja">São José dos Campos</option>
-            <option value="sp">São Paulo</option>
-            <option value="bsb">Brasília</option>
-            <option value="salvador">Salvador</option>
-          </select>
-      
+      <select class="destino">
+        <option value="sanja">São José dos Campos</option>
+        <option value="sp">São Paulo</option>
+        <option value="bsb">Brasília</option>
+        <option value="salvador">Salvador</option>
+      </select>
+
       <label for="destino">Indo Para</label>
 
-           <select class="destino">
-            <option value="sanja">São José dos Campos</option>
-            <option value="sp">São Paulo</option>
-            <option value="bsb">Brasília</option>
-            <option value="salvador">Salvador</option>
-          </select>
-                  
-          <label for="ida">Data de ida</label>
-          <div class="input">
-          <input placeholder="Ida" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" id="ida" name="ida">
-          </div>
+      <select class="destino">
+        <option value="sanja">São José dos Campos</option>
+        <option value="sp">São Paulo</option>
+        <option value="bsb">Brasília</option>
+        <option value="salvador">Salvador</option>
+      </select>
 
-          <label for="volta">Data de volta</label>
-          <div class="input"> 
-          <input placeholder="Volta" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"id="ida" name="volta">
-          </div>
+      <label for="ida">Data de ida</label>
+      <div class="input">
+        <input placeholder="Ida" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+          id="ida" name="ida">
+      </div>
 
-          <button class="search">Buscar</button>
-        
+      <label for="volta">Data de volta</label>
+      <div class="input">
+        <input placeholder="Volta" class="data" type="text" onfocus="(this.type='date')" onblur="(this.type='text')"
+          id="ida" name="volta">
+      </div>
+
+      <button class="search">Buscar</button>
+
     </div>
 
-    
+
   </main>
   <nav>
-    <ul>
-   
-      <li><i class="fal fa-search"></i>Buscar</li>
-   
+    <ul class="icons">
+      <li class="icons__link"><i class="fal fa-search"></i>Buscar</li>
 
-   
-      <li><i class="far fa-wallet"></i>Carteira</li>
-   
-    
-    
-      <li><i class="fal fa-bus"></i>Viagem</li>
-    
+      <li class="icons__link"><i class="far fa-wallet"></i>Carteira</li>
 
-    
-      <li><i class="fal fa-badge-percent"></i>Promoções</li>
-   
+      <li class="icons__link"><i class="fal fa-bus"></i>Viagem</li>
 
-   
-      <li><i class="fal fa-question-circle"></i>Ajuda</li>
-    </span>
-  </ul>
+      <li class="icons__link"><i class="fal fa-badge-percent"></i>Promoções</li>
+
+      <li class="icons__link"><i class="fal fa-question-circle"></i>Ajuda</li>
+    </ul>
   </nav>
-    
+</div>
 </body>
+
 </html>
